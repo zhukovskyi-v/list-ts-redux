@@ -1,0 +1,39 @@
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.todo-item-text {
+    font-size: 1.3rem;
+    color: black;
+    margin: 5px;
+}
+
+.todo-item-text-completed {
+    font-size: 1.5rem;
+    margin: 5px;
+    text-decoration: line-through;
+    color: #0a5149;
+    font-weight: bold;
+}
+
+.todo-item-btn {
+    background: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.todo-item-btn i {
+    max-width: 100%;
+    color: #26a69a;
+}
+
+.todo-item-btn i:hover {
+    color: #0a5149;
+}
